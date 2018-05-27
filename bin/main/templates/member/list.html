@@ -1,0 +1,10 @@
+list
+<table border=1>
+<tr th:each="prod : ${list}">
+  <td th:text="${prod.memberId}"></td>
+  <td th:text="${prod.memberName}"></td>
+  <td th:text="${prod.memberPass}"></td>
+  <td th:text="${prod.regDate}"></td>
+  <td th:text="${prod.modDate}"></td>
+</tr>
+</table>
